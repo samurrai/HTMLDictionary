@@ -1,0 +1,15 @@
+﻿<Window x:Class="HTMLDictionary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HTMLDictionary"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="urlTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="https://mail.ru" VerticalAlignment="Top" Width="208"/>
+        <Button Name="mainButton" Click="MainButtonClick" Content="Получить весь текст с страницы" HorizontalAlignment="Left" Margin="589,1,0,0" VerticalAlignment="Top" Width="193"/>
+        <TextBlock Name="mainTextBlock" HorizontalAlignment="Left" Margin="0,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="397" Width="792"/>
+
+    </Grid>
+</Window>
